@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home_page.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="marginPage">
+      <div class="container1">
+        <div class="container1Left">
+          <img class="logoContainer1" src="images/image 1.png" alt="LOGO" />
+          <p class="pContainer1">
+            Les 3 choses à faire dèsmaintenant pour perdre dupoids durablement
+            et pour obtenir un corps athlétique
+            <span
+              >(avec tes premiers résultats visibles en 3 semaines seulement)
+              !</span
+            >
+          </p>
+          <p class="pSecend">
+            Sans sacrifier ce que tu aimes manger, sans faire des heures de
+            sport et surtout… sans reprise de poids après !
+          </p>
+        </div>
+        <div class="container1Right">
+          <img
+            class="rectangle19"
+            style="background-image: url(images/Rectangle\ 20.png-)"
+            src="images/Rectangle 19.png"
+            alt="photo"
+          />
+          <img
+            class="cadre-image"
+            src="images/Rectangle 20.png"
+            alt="Cadre Image"
+          />
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="side">logo</div>
+        <div class="main">
+          <div class="box">
+            <div class="logo-container">
+              <img
+                class="imgBox"
+                src="images/Group 9560.png"
+                alt="logo"
+                style="width: 124px; height: 124"
+              />
+            </div>
+            La technique facile pour réveiller ton métabolisme endormi et donc,
+            déclencher une perte de graisse visible, saine et surtout, durable.
+            <div class="title">
+              <h1 class="pTitle">SECRET #1</h1>
+            </div>
+          </div>
+          <div class="box-d">
+            <div class="logo-container">
+              <img
+                class="imgBox-d"
+                src="images/Group 9561.png"
+                alt="logo"
+                style="width: 124px; height: 124"
+              />
+            </div>
+            Ce qu’il faut changer dans ton alimentation pour obtenir des
+            résultats visibles rapidement sans te priver, ni renoncer à tes
+            aliments préférés.
+            <div class="title">
+              <h1 class="pTitle">SECRET #1</h1>
+            </div>
+          </div>
+          <div class="box">
+            <div class="logo-container">
+              <img
+                class="imgBox"
+                src="images/Group 9562.png"
+                alt="logo"
+                style="width: 124px; height: 124"
+              />
+            </div>
+            Apprends à construire ton propre plan d’entraînement, structuré et
+            simple à suivre, pour avoir un corps athlétique (tracé, dessiné, sec
+            et musclé).
+            <div class="title">
+              <h1 class="pTitle">SECRET #1</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="side">logo</div>
+      </div>
+      <div class="container">
+        <div class="left-half">
+          <h1 class="h1Container" style="width: 500px; margin-left: 60px">
+            LOREM IPSUM EST UN TEXTE D'ESPACE RÉSERVÉ COURAMMENT
+          </h1>
+          <p class="pContainer" style="margin-left: 60px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <br /><br />
+            Ut enim ad minim veniam, quis nostrud exercitation
+            <span style="font-weight: bold">ullamco laboris</span>
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+            <br /><br />
+            Aldus Corporation, qui a plus tard fusionné avec Adobe Systems, a
+            contribué à amener Lorem Ipsum à l'ère de l'information avec son
+            logiciel phare
+            <span style="font-weight: bold">1985 Aldus PageMaker</span>.
+            <br /><br />
+            Le programme était livré avec du texte factice Lorem Ipsum pour
+            aider à la mise en page du contenu, et d'autres traitements de texte
+            comme Microsoft Word a suivi.
+          </p>
+          <button id="btn1" style="margin-left: 60px" class="btn-lorem_ipsum">
+            LOREM IPSUM EST UN TEXTE
+          </button>
+        </div>
+        <div class="right-half">
+          <img
+            class="rectangle17"
+            src="images/Rectangle 17.png"
+            alt="photo"
+            style="margin-right: 60px"
+          />
+        </div>
+      </div>
+    </div>
+    <footer style="width: 100%">
+      <img class="logo-BN" src="images/image 1.png" alt="logo" />
+      <section>
+        <p class="p-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p class="p-red">
+          Le passage classique «Lorem ipsum dolor sit amet…» est attribué à un
+          remixage du texte du philosophe romain
+          <span class="text-underligne">Cicéron</span> 45 de C. De Finibus
+          Bonorum
+        </p>
+      </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".rectangle17").hover(
+          function () {
+            $(this).addClass("hovered");
+          },
+          function () {
+            $(this).removeClass("hovered");
+          }
+        );
+        function moveImage() {
+          $(".rectangle19")
+            .animate({ left: "+=20px" }, 1000)
+            .animate({ left: "-=20px" }, 1000);
+          setTimeout(moveImage, 35000);
+        }
+        moveImage();
+
+        $(".btn-lorem_ipsum").hover(
+          function () {
+            $(this).addClass("hovered");
+          },
+          function () {
+            $(this).removeClass("hovered");
+          }
+        );
+
+        function moveImage1() {
+          $(".logo-BN")
+            .animate({ left: "+=50px" }, 1000)
+            .animate({ left: "-=50px" }, 1000, moveImage);
+        }
+
+        moveImage1();
+        $(".logo-BN").hover(
+          function () {
+            $(this).stop(true, false);
+            $(this).addClass("zoomed");
+          },
+          function () {
+            moveImage1();
+            $(this).removeClass("zoomed");
+          }
+        );
+        moveImage1();
+      });
+
+      $(".box-d").hover(
+        function () {
+          $(this).css({
+            "background-color": "rgb(202, 206, 202)",
+            color: "black",
+            transform: "scale(1.4)",
+          });
+        },
+        function () {
+          $(this).css({
+            "background-color": "#db3d4c",
+            color: "white",
+            transform: "scale(1)",
+          });
+        }
+      );
+      $(".box").hover(
+        
+        function () {
+         
+          $(this).css({
+            "background-color": "#db3d4c",
+            color: "white",
+            transform: "scale(1.4)",
+          });
+         
+        },
+        function () {
+          $(this).css({
+            "background-color": "rgb(202, 206, 202)",
+            color: "black",
+            transform: "scale(1)",
+          });
+          
+        }
+      );
+    </script>
+  </body>
+</html>
